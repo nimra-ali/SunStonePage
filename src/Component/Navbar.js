@@ -158,7 +158,7 @@ const MenuButton = styled(BaseMenuButton)(
   box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
   display:flex;
   justify-content: space-between;
- 
+
 
   &:hover {
     background: ${theme.palette.mode === 'dark' ? grey[800] : grey[50]};
