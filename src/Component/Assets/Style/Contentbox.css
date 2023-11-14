@@ -126,17 +126,18 @@ height: auto;
 }
 @media (max-width: 768px) {
     .welcome-text{
-        font-size: 37px;
+        font-size: 38px;
         /* text-align: center; */
         margin-left: -4px;
         margin-top: 22px;
-        width: 366px;
+        width: 371px;
+        color: #1D1F24;
         /* border: 1px solid; */
         
     }
     .main-content{
-        /* margin-left: 23px; */
-    width: 342px;
+        margin-left: 11px;
+    width: 373px;
     margin-top: -8px;
     
     }
@@ -151,7 +152,7 @@ height: auto;
     }
     .question-answer-box{
         /* border: 1px solid black; */
-        width:320px
+        width:352px
         
     } 
     
