@@ -173,7 +173,7 @@ color: #1D1F24;
     }
    .dropdown-div{
     display: flex;
-    margin-left: 3px;
+    margin-left: -13% !important;
     /* width: 10px; */
     /* rotate: 20px; */
    }
