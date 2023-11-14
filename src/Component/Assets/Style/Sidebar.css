@@ -74,4 +74,16 @@ height: 500px;
     color: #1D1F24;
     margin-left: -16px;
 }
+@media (max-width: 768px) {
+    .update-main{
+        padding-left: 44px;
+        margin-top: -68px;
+        margin-left: -7%;
+    }
+    .update-box{
+        margin-left: -10px;
+/* padding-right: 10px; */
+    }
+   
+}
   

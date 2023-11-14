@@ -136,8 +136,18 @@ color: #1D1F24;
 @media (max-width: 768px) {
     .drawer{
         display: block;
+        background-color: #ffff;
+        color: blue;
+        width: 63px;
+        /* font-size: 53px; */
+        /* font-weight: bolder; */
+        margin-left: 20px;
+        height: 51px;
+        margin-top: 20px;
     }
-   
+    .icon-drawer{
+        font-size: 30px;
+    }
   
     .color{
         display: none;
@@ -155,59 +165,69 @@ color: #1D1F24;
         display: block;
         display: flex;
     }
-   
-    .css-4t3x6l-MuiPaper-root-MuiDrawer-paper {
-        background-color: #fff;
-        color: rgba(0, 0, 0, 0.87);
-        -webkit-transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-        transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-        box-shadow: 0px 8px 10px -5px rgba(0,0,0,0.2), 0px 16px 24px 2px rgba(0,0,0,0.14), 0px 6px 30px 5px rgba(0,0,0,0.12);
-        /* overflow-y: auto; */
-        display: -webkit-box;
-        display: -webkit-flex;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-        flex-direction: column;
-        /* height: 100%; */
-        -webkit-flex: 1 0 auto;
-        -ms-flex: 1 0 auto;
-        flex: 1 0 auto;
-        z-index: 1200;
-        -webkit-overflow-scrolling: touch;
-        position: fixed;
-        top: 0;
-        outline: 0;
-        height: auto !important;
-        left: 0;
-        width: 210px !important;
-    }
-    .css-i4bv87-MuiSvgIcon-root {
-        -webkit-user-select: none;
+    .css-vubbuv {
         user-select: none;
         width: 1em;
         height: 1em;
         display: inline-block;
-        fill: currentColor;
+        fill: currentcolor;
         flex-shrink: 0;
         transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
         font-size: 1.5rem;
-        margin-top: -91%;
-        background-color: #fff;
-        width: 64px !important;
-        height: 47px !important;
-        margin-left: 10px;
-        color: #7662EA;
+        margin-top: -230%;
     }
-    
-       
-    
-   
-    .css-xjv8gl {
-        margin-left: 112px;
-        margin-top: -7px;
+    .navbar{
+        width: 380px;
+        /* border: 1px solid black; */
     }
+   .dropdown-div{
+    display: flex;
+    margin-left: 3px;
+    /* width: 10px; */
+    /* rotate: 20px; */
+   }
+   .css-15m8kzi {
+    font-family: IBM Plex Sans,sans-serif;
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    padding: 5px 18px;
+    border-radius: 8px;
+    color: white;
+    -webkit-transition: all 150ms ease;
+    transition: all 150ms ease;
+    cursor: pointer;
+    background: #fff;
+    border: 1px solid #DAE2ED;
+    color: #1C2025;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+width: 120px !important;
+    
+}
+.css-i4bv87-MuiSvgIcon-root {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    fill: currentColor;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    -webkit-transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    font-size: 2.5rem !important;
+    margin-left: 14px !important;
+}  
    
 }
    

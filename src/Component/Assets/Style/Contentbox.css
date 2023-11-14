@@ -1,5 +1,5 @@
 .wellecome-div{
-    width: 920px;
+    width: 230px;
     height: auto;
     margin-left: 20px;
     /* border: 1px solid black; */
@@ -126,22 +126,24 @@ height: auto;
 }
 @media (max-width: 768px) {
     .welcome-text{
-        font-size: 22px;
+        font-size: 37px;
         /* text-align: center; */
-        /* padding-left: -13px; */
         margin-left: -10px;
-        /* padding-top: -10px; */
-        margin-top: -6px
+        margin-top: 22px;
+        width: 366px;
+        /* border: 1px solid; */
         
     }
     .main-content{
-        margin-left: 8px;
-    width: 218px;
+        /* margin-left: 23px; */
+    width: 342px;
     margin-top: -8px;
     
     }
     .whole-content{
         font-size: 16px;
+        width: 334px;
+        /* border: 1px solid black;
         /* border: 1px solid black; */
     }
     .sunstone-img{
@@ -149,9 +151,9 @@ height: auto;
     }
     .question-answer-box{
         /* border: 1px solid black; */
-        width: auto
-        ;
-    }
+        width:320px
+        
+    } 
     
    
 }

@@ -25,7 +25,7 @@ const Sidebar = () => {
     <div variant="permanent" anchor="left" className='color'>
       <List className='side'>
         <ListItem
-          button
+          button  
           className={selectedItem === 0 ? 'selected' : ''}
           onClick={() => handleItemClick(0)}
         >
@@ -99,7 +99,9 @@ const Sidebar = () => {
       </List>
       <div className='update-main'>
 
-    
+    <div className='mobile-view-update'>
+
+   
       <div className='update-box'>
 <img className='update-img' src={updateicon} alt='update-icon'/>
 <p className='upgrade-text'>
@@ -111,6 +113,7 @@ Get full access to all course for 1 month.
 <button className='update-btn'>
 Upgrade to Pro
     </button>
+      </div>
       </div>
       </div>
     </div>

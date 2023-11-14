@@ -32,6 +32,9 @@ const Navbar = () => {
         <img className='nav-icon' src={navicon} alt='navicon'/>
         <h1 className='sunstone-paragrah'>Sunstone</h1>
        </div>
+       <div className='drawer'>
+    <CustomDrawer/>
+    </div>
        <div className='dropdown-div'>
        <Dropdown className='dropdownnn' >
       <MenuButton><img className='star-icon' src={point} alt='point-icon'/> <Line className='line-style' /> <img className='user-style' src={userimg} alt='usersimg'/></MenuButton>
@@ -52,9 +55,7 @@ const Navbar = () => {
         <MenuItem onClick={createHandleMenuClick('Log out')}>Sign out</MenuItem>
       </Menu>
     </Dropdown>
-    <div className='drawer'>
-    <CustomDrawer/>
-    </div>
+   
   
        </div>
        
@@ -157,7 +158,7 @@ const MenuButton = styled(BaseMenuButton)(
   box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
   display:flex;
   justify-content: space-between;
-
+ 
 
   &:hover {
     background: ${theme.palette.mode === 'dark' ? grey[800] : grey[50]};

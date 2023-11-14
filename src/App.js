@@ -5,7 +5,6 @@ import Navbar from './Component/Navbar'
 import ContentBox from './Component/ContentBox';
 
 
-
 function App() {
   return (
     <div className="App">
