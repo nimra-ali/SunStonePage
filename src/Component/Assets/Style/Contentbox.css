@@ -129,7 +129,7 @@ height: auto;
     .welcome-text{
         color: #1d1f24;
         font-size: 35px;
-        margin-left: -4px;
+        margin-left: -1px;
         margin-top: 22px;
         width: 342px;
         /* border: 1px solid; */
@@ -137,7 +137,7 @@ height: auto;
     }
     .main-content{
         margin-left: 11px;
-    width: 378px;
+    width: 360px;
     margin-top: -8px;
     
     }
