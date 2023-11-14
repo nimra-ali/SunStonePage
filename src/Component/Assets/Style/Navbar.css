@@ -145,9 +145,7 @@ color: #1D1F24;
         height: 51px;
         margin-top: 20px;
     }
-    .icon-drawer{
-        font-size: 30px;
-    }
+   
   
     .color{
         display: none;
@@ -165,17 +163,7 @@ color: #1D1F24;
         display: block;
         display: flex;
     }
-    .css-vubbuv {
-        user-select: none;
-        width: 1em;
-        height: 1em;
-        display: inline-block;
-        fill: currentcolor;
-        flex-shrink: 0;
-        transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-        font-size: 1.5rem;
-        margin-top: -230%;
-    }
+    
     .navbar{
         width: 380px;
         /* border: 1px solid black; */
@@ -186,6 +174,7 @@ color: #1D1F24;
     /* width: 10px; */
     /* rotate: 20px; */
    }
+ 
    .css-15m8kzi {
     font-family: IBM Plex Sans,sans-serif;
     font-weight: 600;
@@ -211,7 +200,7 @@ color: #1D1F24;
 width: 120px !important;
     
 }
-.css-i4bv87-MuiSvgIcon-root {
+css-i4bv87-MuiSvgIcon-root {
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
@@ -226,8 +215,8 @@ width: 120px !important;
     -webkit-transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
     transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
     font-size: 2.5rem !important;
-    margin-left: 14px !important;
-}  
+    margin-left: 13px !important;
+}
    
 }
    
