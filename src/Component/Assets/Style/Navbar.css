@@ -1,0 +1,208 @@
+.navbar{
+    width: 92.44%;
+    height: 70px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+}
+.sunstone-div{
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 19px;
+    /* padding-top: 20px; */
+    display: flex;
+    /* display: none; */
+    /* justify-content: space-around; */
+    /* border: 1px solid black; */
+}
+.star-icon{
+    width: 22px;
+    padding-top: 6px;
+}
+.dropdown-div{
+    margin-left: 2px;
+    margin-top: 15px;
+}
+
+.user-style{
+    /* margin-left: 10px; */
+    /* padding-left: 10px; */
+    padding-bottom: 6px;
+}
+.nav-icon{
+    width: 43px;
+    height: 43px;
+    padding-top: 6px;
+}
+.sunstone-paragrah{
+    font-size:22px;
+    font-weight: 500;
+    line-height: 33px;
+    letter-spacing: 1%;
+    /* padding-left: -10px; */
+   /* text-size-adjust: medium; */
+color: #1D1F24;
+    /* font-family: poppins; */
+    /* padding-top: 10px; */
+    /* padding-bottom: 50px; */
+}
+.menu-list{
+    width: 290px;
+    /* height: 230px; */
+    /* background-color: blue; */
+}
+.menu-profile{
+    display: flex;
+}
+/* .menu-list{ */
+    /* padding-right: 50px; */
+    /* width:0px; */
+/* } */
+
+.dropdownnn{
+    width: 500px;
+    /* background-co/lor: aqua; */
+}
+.user-style-2{
+    width: 35px;
+    height: 35px;
+    padding-top: 14px;
+}
+.alex{
+    padding-left: 18px;
+    /* margin-top: 1px; */
+    /* padding-bottom: 13px; */
+    font-size:14px;
+    font-weight: 600;
+   
+    /* font-family: poppins; */
+}
+.alex-email{
+    padding-left: 18px;
+    margin-top: -10px;
+    /* padding-bottom: 80px; */
+    font-size:14px;
+    font-weight: 500;
+    color: #3A3D44;
+    
+
+}
+.drawer{
+    display: none;
+}
+.border-bottom{
+    border-bottom: 1px solid #ECEFF3;
+    /* padding-top: -80px; */
+    margin-top: -12px;
+    width: 210px;
+    /* height: 12px; */
+    margin-left: 11px;
+    /* padding-left: 12px; */
+}
+.border-bottom-2{
+    border-bottom: 1px solid #ECEFF3;
+    /* padding-top: -80px; */
+    margin-top: 4px;
+    width: 210px;
+    /* height: 12px; */
+    margin-left: 11px;
+}
+.css-4t3x6l-MuiPaper-root-MuiDrawer-paper {
+    background-color: #831c1c;
+    color: rgba(0, 0, 0, 0.87);
+    -webkit-transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    box-shadow: 0px 8px 10px -5px rgba(0,0,0,0.2), 0px 16px 24px 2px rgba(0,0,0,0.14), 0px 6px 30px 5px rgba(0,0,0,0.12);
+    overflow-y: auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: 100%;
+    -webkit-flex: 1 0 auto;
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto;
+    z-index: 1200;
+    -webkit-overflow-scrolling: touch;
+    position: fixed;
+    top: 0;
+    outline: 0;
+    left: 0;
+    height: auto;
+}
+@media (max-width: 768px) {
+    .drawer{
+        display: block;
+    }
+    body{
+        overflow-x: hidden;
+    }
+    .color{
+        display: none;
+    }
+    .sunstone-div{
+        display: none;
+    }
+    .nav-icon{
+        display: none;
+    }
+    .sunstone-paragrah{
+        display: none;
+    }
+    .sunstone-div-drawer{
+        display: block;
+        display: flex;
+    }
+   
+.css-4t3x6l-MuiPaper-root-MuiDrawer-paper{      
+      background-color: #831c1c;
+        color: rgba(0, 0, 0, 0.87);
+        -webkit-transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+        transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+        box-shadow: 0px 8px 10px -5px rgba(0,0,0,0.2), 0px 16px 24px 2px rgba(0,0,0,0.14), 0px 6px 30px 5px rgba(0,0,0,0.12);
+        overflow-y: auto;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        height: auto !important;
+        -webkit-flex: 1 0 auto;
+        -ms-flex: 1 0 auto;
+        flex: 1 0 auto;
+        z-index: 1200;
+        -webkit-overflow-scrolling: touch;
+        position: fixed;
+        top: 0;
+        outline: 0;
+        left: 0;
+        width: 210px !important;
+        /* height: auto; */
+    } 
+    .navbar{
+        width: auto
+        ;
+       
+    }
+   
+    .css-xjv8gl {
+        margin-left: 112px;
+        margin-top: -7px;
+    }
+    .css-i4bv87-MuiSvgIcon-root{
+        margin-top: -85% ;
+        border: 1px solid #fff;
+        background-color: #fff;
+        color: #7662EA;
+        width: auto !important;
+        height: 40px !important;
+        margin-left: 20px;
+    }
+    
+   
+}
