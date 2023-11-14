@@ -128,7 +128,7 @@ height: auto;
 @media (max-width: 768px) {
     .welcome-text{
         color: #1d1f24;
-        font-size: 35px;
+        font-size: 34px;
         padding-left: 7px;
         /* margin-left: -2px; */
         margin-top: 22px;
@@ -137,7 +137,7 @@ height: auto;
         
     }
     .main-content{
-        margin-left: 19px;
+        /* margin-left: 19px; */
     width: 344px;
     margin-top: -8px;
     
