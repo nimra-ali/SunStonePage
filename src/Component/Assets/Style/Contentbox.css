@@ -1,83 +1,122 @@
-.wellecome-div{
+.wellecome-div {
     width: 230px;
     height: auto;
     margin-left: 20px;
-    /* border: 1px solid black; */
-    /* margin-top: 19px; */
+
 }
-.welcome-text{
+
+.welcome-text {
     padding-top: 13px;
     font-weight: 600;
     font-size: 24px;
+    padding-left: 29px;
     line-height: 36px;
     letter-spacing: 1%;
-    color:  #1D1F24;
+    color: #1D1F24;
+    width: 310px;
+
 }
-.main-content{
-    width: 95%;
-    /* margin-right: 2px; */
-    border-radius: 7px;
-    margin-left: 20px;
+
+.main-content {
+    width: 93.44%;
+
+    border-radius: 20px;
+    margin-left: 32px;
     height: auto;
-margin-top: 40px;
-padding-top: 10px;
-/* padding-left: 20px; */
+    margin-top: 40px;
+    padding-top: 10px;
+
     height: 380px;
-    /* border: 1px solid black; */
-    background-color: 
-    #FFFFFF;
-    /* padding: 20px; */
+
+    background-color:
+        #FFFFFF;
+
 }
-.whole-content{
-    /* padding: 30px; */
+.main-content-blogs{
+
+        width: 423%;
+    
+        border-radius: 20px;
+        margin-left: 32px;
+        /* height: 930px ; */
+        margin-top: 40px;
+        padding-top: 10px;
+    
+        height: 510px;
+    
+        background-color:
+            #FFFFFF;
+    
+        
+}
+.main-content-application{
+    width: 300%;
+    
+    border-radius: 20px;
+    margin-left: 32px;
+    /* height: 930px ; */
+    margin-top: 40px;
+    padding-top: 10px;
+
+    height: 510px;
+
+    background-color:
+        #FFFFFF;   
+}
+.main-content-hack{
+    width: 329%;
+    
+    border-radius: 20px;
+    margin-left: 32px;
+    /* height: 930px ; */
+    margin-top: 40px;
+    padding-top: 10px;
+
+    height: 510px;
+
+    background-color:
+        #FFFFFF;   
+}
+.whole-content {
+
     background-color: #fff;
     border-radius: 20px;
-    /* margin-top: 48px; */
-    display: flex;
-    /* justify-content: space-between; */
-    /* gap: 26px; */
-    /* width: 90%;
-    height: auto;
-    /* padding: 26px; */
 
-    /* padding-top: 20px; */
-    /* margin-top: 80px; */
-    /* margin-left: 26px; */ 
-    /* height: 30px; */
-    /* border: 1px solid black; */
+    display: flex;
+
 }
-.get-started{
+
+.get-started {
     font-size: 16px;
     font-weight: 400;
-    /* margin-left: 25px; */
+
     line-height: 24px;
     letter-spacing: 1%;
     color: #7662EA;
-   
-}
-.question-answer-box{
-    width: 58%;
-    /* display: inline; */
-    /* height: 120px; */
-    margin-left: 25px;
-height: auto;
-    margin-top: 4px;
-    padding-bottom: 30px;
-    /* border: 1px solid black;  */
-    /* display: flex;
-    justify-content: space-between; */
- }
 
-.question-one{
-    font-size: 22px;
+}
+
+.question-answer-box {
+    width: 58%;
+
+    margin-left: 25px;
+    height: auto;
+    margin-top: 4px;
+    padding-bottom: 34px;
+
+}
+
+.question-one {
+    font-size: 25px;
     font-weight: 500;
     line-height: 33px;
     letter-spacing: 1%;
     color: #1D1F24;
     margin-top: -5px;
-   
+
 }
-.answer-one{
+
+.answer-one {
     font-size: 14px;
     font-weight: 400;
     margin-top: -16px;
@@ -86,15 +125,17 @@ height: auto;
     letter-spacing: 1%;
     color: #6B6E75;
 }
-.question-two{
-    font-size: 22px;
+
+.question-two {
+    font-size: 25px;
     font-weight: 500;
     line-height: 33px;
     letter-spacing: 1%;
     color: #1D1F24;
-    
+
 }
-.answer-two{
+
+.answer-two {
     font-size: 14px;
     font-weight: 400;
 
@@ -103,15 +144,17 @@ height: auto;
     letter-spacing: 1%;
     color: #6B6E75;
 }
-.question-three{
-    font-size: 22px;
+
+.question-three {
+    font-size: 25px;
     font-weight: 500;
     line-height: 33px;
     margin-top: 10px;
     letter-spacing: 1%;
     color: #1D1F24;
 }
-.answer-three{
+
+.answer-three {
     font-size: 14px;
     font-weight: 400;
     margin-top: 10px;
@@ -121,42 +164,54 @@ height: auto;
     color: #6B6E75;
 }
 
-.sunstone-img{
+.sunstone-img {
     margin-top: 8%;
     margin-left: 6%;
 }
+
 @media (max-width: 768px) {
-    .welcome-text{
+    .welcome-text {
         color: #1d1f24;
         font-size: 34px;
         padding-left: 7px;
-        /* margin-left: -2px; */
+
         margin-top: 22px;
         width: 342px;
-        /* border: 1px solid; */
-        
+
+
     }
-    .main-content{
-        /* margin-left: 19px; */
-    width: 334px;
-    margin-top: -8px;
-    
+
+    .main-content {
+
+        width: 334px;
+        margin-top: -8px;
+
     }
-    .whole-content{
+
+    .whole-content {
         font-size: 16px;
         width: 327px;
-        /* border: 1px solid black;
-        /* border: 1px solid black; */
+
     }
-    .sunstone-img{
+
+    .sunstone-img {
         display: none;
     }
-    .question-answer-box{
-        /* border: 1px solid black; */
-        width:300px;
+
+    .question-answer-box {
+
+        width: 300px;
         padding-bottom: 4px
-        
-    } 
-    
-   
+    }
+    .main-content-hack{
+        width: 321px;
+    }
+    .main-content-blogs{
+        width: 316px;
+    }
+    .main-content-application{
+        width: 328px;
+    }
+
+
 }

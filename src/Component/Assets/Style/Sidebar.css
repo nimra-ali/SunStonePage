@@ -1,38 +1,40 @@
-
-.side{
+.side {
     width: 200px;
     height: 190px;
 }
 
-.color{
-   width: 210px;
-height: 500px;
+.color {
+    width: 210px;
+    height: 500px;
 
     margin-left: 10px;
     margin-top: 20px;
 }
-.update-main{
+
+.update-main {
     padding-bottom: 20px;
 }
-.update-box{
-    /* padding-bottom: 20px.; */
+
+.update-box {
+
     width: 200px;
     height: 200px;
+
     margin-top: 190%;
-    /* margin-left: 12px; */
+    margin-left: 16px;
     border-radius: 20px;
     background-color: #fff;
-/* margin-bottom: 10px; */
-    /* padding-top: 20px; */
-    border: 1px solid
-    #7662EA;
+
+    border: 1px solid #7662EA;
 }
-.update-img{
+
+.update-img {
     padding-left: 74px;
     margin-top: -14%;
-    /* padding-top: -70px; */
+
 }
-.upgrade-text{
+
+.upgrade-text {
     text-align: center;
     font-size: 14px;
     font-weight: 600;
@@ -40,50 +42,61 @@ height: 500px;
     letter-spacing: 1%;
     color: #1D1F24;
 }
-.update-text-two{
+
+.update-text-two {
     text-align: center;
     font-size: 12px;
     font-weight: 400;
     line-height: 18px;
-    letter-spacing: 1%;   
-    color: 
-    #6B6E75;
+    letter-spacing: 1%;
+    color:
+        #6B6E75;
 }
 
-.update-btn{
+.update-btn {
     width: 179px;
     height: 40px;
     margin-left: 10px;
-    /* padding-top: -20px; */
+cursor: pointer;
     background-color: #7662EA;
     color: #fff;
     border-radius: 8px;
     border: none;
 
 }
+
 .selected {
     background-color: white !important;
     border-radius: 12px !important;
-  }
-  
-  .selected-img {
-    filter: invert(0%) sepia(92%) saturate(1211%) hue-rotate(258deg) brightness(91%) contrast(100%);
-  }
-  
-  .primary-sidebartext{
-    color: #1D1F24;
-    margin-left: -16px;
+    width: 229px !important;
+    /* text-decoration: none !important; */
+
 }
+
+.selected-img {
+    filter: invert(0%) sepia(92%) saturate(1211%) hue-rotate(258deg) brightness(91%) contrast(100%);
+}
+
+.primary-sidebartext {
+    color: #3A3D44;
+   text-decoration: none;
+    margin-left: -16px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 1%;
+}
+
 @media (max-width: 768px) {
-    .update-main{
+    .update-main {
         padding-left: 44px;
         margin-top: -68px;
         margin-left: -7%;
     }
-    .update-box{
+
+    .update-box {
         margin-left: -10px;
-/* padding-right: 10px; */
+
     }
-   
+
 }
-  

@@ -1,4 +1,3 @@
-// CustomDrawer.js
 import React, { useState } from 'react';
 import DrawerMui from '@mui/material/Drawer';
 import List from '@mui/material/List';
@@ -8,12 +7,13 @@ import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
 import navicon from '../Component/Assets/icon.svg';
 import { ListItemIcon } from '@mui/material';
-import home from '../Component/Assets/homie.svg';
+import HomeOutlinedIcon from '@mui/icons-material/HomeOutlined';
 import api from '../Component/Assets/book.svg';
 import calender from '../Component/Assets/calender.svg';
 import chats from '../Component/Assets/chats.svg';
 import trophy from '../Component/Assets/trophy.svg';
 import updateicon from '../Component/Assets/updateicon.svg';
+import { Link } from 'react-router-dom';
 
 const CustomDrawer = () => {
   const [openDrawer, setOpenDrawer] = useState(false);
@@ -33,10 +33,10 @@ const CustomDrawer = () => {
 
   return (
     <div className='drawer-main' >
-     
+
       <IconButton
         id='css-vubbuv'
-       
+
 
         aria-label="menu"
         onClick={handleDrawerOpen}
@@ -44,31 +44,30 @@ const CustomDrawer = () => {
         <MenuIcon />
       </IconButton>
       <DrawerMui
-      className='drawer-mobile'
+        className='drawer-mobile'
         anchor="left"
-        style={{height :"auto"}}
+        style={{ height: "auto" }}
         open={openDrawer}
         onClose={handleDrawerClose}
       >
-            <div  className='sunstone-div-drawer'>
-        <img className='nav-icon-drawer' src={navicon} alt='navicon' />
-        <h1 className='sunstone-paragrah-drawer'>Sunstone</h1>
-      </div>
+        <div className='sunstone-div-drawer'>
+          <img className='nav-icon-drawer' src={navicon} alt='navicon' />
+          <h1 className='sunstone-paragrah-drawer'>Sunstone</h1>
+        </div>
         <List className='listedd' >
-        
           <ListItem
             button
             className={selectedItem === 0 ? 'selected' : ''}
             onClick={() => handleItemClick(0)}
           >
             <ListItemIcon>
-              <img
-                src={home}
-                alt='homeicon'
-                className={selectedItem === 0 ? 'selected-img' : ''}
+              <HomeOutlinedIcon
+                style={{ filter: selectedItem === 0 ? 'invert(0%) sepia(92%) saturate(1211%) hue-rotate(258deg) brightness(91%) contrast(100%)' : 'none' }}
               />
             </ListItemIcon>
+            <Link to="/">
             <ListItemText className='primary-sidebartext' primary="Home" />
+          </Link>
           </ListItem>
           <ListItem
             button
@@ -82,7 +81,11 @@ const CustomDrawer = () => {
                 className={selectedItem === 1 ? 'selected-img' : ''}
               />
             </ListItemIcon>
-            <ListItemText className='primary-sidebartext' primary="API Docs" />
+            <Link to="/api">
+            <ListItemText className='primary-sidebartext' style={{
+              textDecoration:'none'
+            }} primary="API Docs" />
+          </Link>
           </ListItem>
           <ListItem
             button
@@ -96,7 +99,9 @@ const CustomDrawer = () => {
                 className={selectedItem === 2 ? 'selected-img' : ''}
               />
             </ListItemIcon>
+            <Link to="/applications">
             <ListItemText className='primary-sidebartext' primary="Applications" />
+          </Link>
           </ListItem>
           <ListItem
             button
@@ -110,7 +115,9 @@ const CustomDrawer = () => {
                 className={selectedItem === 3 ? 'selected-img' : ''}
               />
             </ListItemIcon>
+            <Link to="/blogs">
             <ListItemText className='primary-sidebartext' primary="Blogs" />
+          </Link>
           </ListItem>
           <ListItem
             button
@@ -124,7 +131,9 @@ const CustomDrawer = () => {
                 className={selectedItem === 4 ? 'selected-img' : ''}
               />
             </ListItemIcon>
+            <Link to="/hackathon">
             <ListItemText className='primary-sidebartext' primary="Hackathon" />
+          </Link>
           </ListItem>
         </List>
         <div className='update-main'>
