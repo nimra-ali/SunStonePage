@@ -65,7 +65,9 @@ const CustomDrawer = () => {
                 style={{ filter: selectedItem === 0 ? 'invert(0%) sepia(92%) saturate(1211%) hue-rotate(258deg) brightness(91%) contrast(100%)' : 'none' }}
               />
             </ListItemIcon>
-            <Link to="/">
+            <Link to="/" style={{
+              textDecoration:'none'
+            }}>
             <ListItemText className='primary-sidebartext' primary="Home" />
           </Link>
           </ListItem>
@@ -81,7 +83,9 @@ const CustomDrawer = () => {
                 className={selectedItem === 1 ? 'selected-img' : ''}
               />
             </ListItemIcon>
-            <Link to="/api">
+            <Link to="/api" style={{
+              textDecoration:'none'
+            }}>
             <ListItemText className='primary-sidebartext' style={{
               textDecoration:'none'
             }} primary="API Docs" />
@@ -99,7 +103,9 @@ const CustomDrawer = () => {
                 className={selectedItem === 2 ? 'selected-img' : ''}
               />
             </ListItemIcon>
-            <Link to="/applications">
+            <Link to="/applications" style={{
+              textDecoration:'none'
+            }}>
             <ListItemText className='primary-sidebartext' primary="Applications" />
           </Link>
           </ListItem>
@@ -115,7 +121,9 @@ const CustomDrawer = () => {
                 className={selectedItem === 3 ? 'selected-img' : ''}
               />
             </ListItemIcon>
-            <Link to="/blogs">
+            <Link to="/blogs" style={{
+              textDecoration:'none'
+            }}>
             <ListItemText className='primary-sidebartext' primary="Blogs" />
           </Link>
           </ListItem>
@@ -131,7 +139,9 @@ const CustomDrawer = () => {
                 className={selectedItem === 4 ? 'selected-img' : ''}
               />
             </ListItemIcon>
-            <Link to="/hackathon">
+            <Link to="/hackathon" style={{
+              textDecoration:'none'
+            }}>
             <ListItemText className='primary-sidebartext' primary="Hackathon" />
           </Link>
           </ListItem>

@@ -174,16 +174,15 @@
         color: #1d1f24;
         font-size: 34px;
         padding-left: 7px;
-
         margin-top: 22px;
-        width: 342px;
-
+        width: 335px;
+        /* border: 1px solid; */
 
     }
 
     .main-content {
 
-        width: 334px;
+        width: 317px;
         margin-top: -8px;
 
     }
